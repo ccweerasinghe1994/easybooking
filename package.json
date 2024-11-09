@@ -10,7 +10,12 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "workspaces": [
+    "packages/schema",
+    "services/backend"
+  ],
   "dependencies": {
-    "easybooking": "file:"
+    "easybooking": "file:",
+    "typescript": "^5.6.3"
   }
 }
